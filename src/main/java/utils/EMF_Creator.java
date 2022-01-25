@@ -47,7 +47,8 @@ public class EMF_Creator {
             System.out.println("CONNECTION_STR -->" + System.getenv("CONNECTION_STR"));
             String user = System.getenv("USER");
             String pw = System.getenv("PW");
-            String dbName = getDbName(); //Gets the database name from pom.xml
+            //String dbName = getDbName(); //Gets the database name from pom.xml
+            String dbName = "startcode";
             String connection_str = System.getenv("CONNECTION_STR") + dbName; //Creates the full JDBC connection string
             Logger.getLogger("web").log(Level.WARNING, "dbName:" + dbName);
             Properties props = new Properties();
