@@ -1,7 +1,7 @@
 package rest;
 
 import com.google.gson.Gson;
-import dto.ConversionDTO;
+import dtos.ConversionDTO;
 import entities.User;
 
 import java.io.IOException;
