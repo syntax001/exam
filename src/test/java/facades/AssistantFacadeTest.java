@@ -63,7 +63,7 @@ public class AssistantFacadeTest {
     // TODO: Delete or change this method
     @Test
     public void testGetAll() throws Exception {
-        assertEquals(3, facade.getAllAssistants().size());
+        assertEquals(7, facade.getAllAssistants().size());
     }
 
     @Test
